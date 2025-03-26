@@ -26,7 +26,7 @@ const [mario, pipe, restart] = [".mario", ".pipe", ".restart"].map((item) =>
       mario.style.animation = "none";
       mario.style.bottom = `${marioPosition}px`;
   
-      mario.src = "./assets/game-over.png";
+      mario.src = "./Assets/game-over.png";
       mario.style.width = "100px";
       mario.style.marginLeft = "25px";
   
